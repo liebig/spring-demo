@@ -29,4 +29,4 @@ The following guides illustrate how to use some features concretely:
 
 `http://localhost:8080/actuator`
 
-`java -jar .\target\demo-0.0.1-SNAPSHOT.war`
+`java -jar .\demo-0.0.1-SNAPSHOT.war --spring.profiles.active=dev`
