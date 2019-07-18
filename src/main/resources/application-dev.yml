@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    platform: mariadb
+    url: jdbc:mysql://127.0.0.1:3306/demo-muster?createDatabaseIfNotExist=true
+    username: demo-muster
+    password: demo-muster
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
